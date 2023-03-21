@@ -15,6 +15,10 @@ public class NumberLeaf extends Observable implements MathExpression {
         return number;
     }
 
+    public int getLastObservedResult() {
+        return 0;
+    }
+
     public int SetValue(int number) {
         this.number = number;
         return number;

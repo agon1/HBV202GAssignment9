@@ -1,6 +1,5 @@
 package is.hi.hbv202g.ass9;
 
-//við erum komin á spurningu 3//
 public class CompositeMain {
 
     public static void main(String[] args) {

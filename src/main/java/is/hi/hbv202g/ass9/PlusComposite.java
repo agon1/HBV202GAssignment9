@@ -1,11 +1,12 @@
 package is.hi.hbv202g.ass9;
 
 import is.hi.hbv202g.ass9.composite.MathExpression;
+import is.hi.hbv202g.ass9.compositeLeafObservedByComposite.composite.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlusComposite implements MathExpression {
+public class PlusComposite implements MathExpression, Observer {
     private List<MathExpression> children = new ArrayList<MathExpression>();
 
     public int getResult() {
